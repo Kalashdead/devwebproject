@@ -38,6 +38,11 @@ ul {
     margin: 0;
     padding: 0;
     box-shadow: 0px 0px 30px black, -5px -4px 45px black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
 
 }
 
@@ -79,6 +84,14 @@ h1 {
 
 }
 
+h2 {
+
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-size: 30px;
+
+}
+
 .strongh1 {
     font-family: "poppins", sans-serif;
     background: linear-gradient(to left, rgb(0, 224, 240), rgb(249, 253, 0));
@@ -86,7 +99,6 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 45px;
-    border-bottom: 3px solid;
 }
 
 .strong {
@@ -223,7 +235,7 @@ p:hover {
 }
 
 .left {
-    
+
     height: fit-content;
     padding-bottom: 10px;
     margin-top: 40px;
@@ -285,7 +297,7 @@ p:hover {
 }
 
 .artdiv>a {
-    width: calc(20% - 100px);
+    width: calc(40% - 100px);
     height: 299px;
     text-align: center;
     display: flex;
@@ -294,7 +306,7 @@ p:hover {
     border: 1px solid;
     padding: 20px;
     box-shadow: 0px 0px 30px black, -5px -4px 45px black;
-    ;
+    padding-top: 60px;
 }
 
 .artdiv>a:hover {
@@ -312,11 +324,11 @@ p:hover {
     padding: 20px;
 }
 
-.navart>a{
+.navart>a {
     object-fit: cover;
 }
 
-.imglangcsshtml{
+.imglangcsshtml {
 
     width: 100%;
 }
@@ -324,21 +336,248 @@ p:hover {
 
 footer {
     margin-top: 60px;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
     border-top: solid;
     shape-outside: content-box;
     padding-top: 30px;
     display: flex;
 }
 
-footer img{
+footer img {
 
-width: 300px;
-    
+    width: 300px;
+
 }
 
-footer div{
-
+footer div {
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*---------------P A G E 1------------*/
+
+article {
+    margin-top: 50px;
+    border-top: 2px solid;
+    width: 100%;
+}
+
+.articleprincipalpage2 {
+
+    margin-top: 100px;
+    border-bottom: solid;
+}
+
+footer>div>p {
+    font-family: "poppins", sans-serif;
+    text-decoration: none;
+    background: linear-gradient(to left, rgb(245, 3, 100), rgb(0, 0, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+.titreartpage1>h3 {
+    border-bottom: 2px solid;
+    padding: 50px;
+}
+
+.imageprincipalpage1 {
+
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+    box-shadow: 0px 0px 30px black, -5px -4px 45px black;
+    border-radius: 10px;
+}
+
+.imageprincipalpage1:hover {
+
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+.h1page1 {
+    margin-top: 100px;
+}
+
+.h1page1:hover {
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+div p {
+    padding: 20px;
+}
+
+
+.cssexemple2 {
+    height: 50%;
+}
+
+.divexplication2 p {
+    font-family: "poppins", sans-serif;
+    height: fit-content;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    font-size: 23px;
+    text-shadow: -12px 13px 20px black, -3px 7px 7px black;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.87);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 0, 0, 0.51);
+    color: white;
+    margin: 30px;
+
+}
+
+.divexplication2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: center;
+    padding: 30px;
+}
+
+.imgcsspage2 {
+    object-fit: cover;
+    margin: auto;
+    box-shadow: 0px 0px 30px black, -5px -4px 45px black;
+    border-radius: 10px;
+}
+
+
+.divexplication3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.divexplication3 p {
+    font-family: "poppins", sans-serif;
+    height: fit-content;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    font-size: 23px;
+    text-shadow: -12px 13px 20px black, -3px 7px 7px black;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.87);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 0, 0, 0.51);
+    color: white;
+    display: flex;
+
+}
+
+.imgcss3 {
+    object-fit: cover;
+    margin: auto;
+    box-shadow: 0px 0px 30px black, -5px -4px 45px black;
+    border-radius: 10px;
+    width: 40%;
+    width: 50%;
+
+}
+
+/*--------------- P A G E 3 ------------*/
+
+.strongh1page3 {
+    font-family: "poppins", sans-serif;
+    background: linear-gradient(to left, rgb(0, 224, 240), rgb(249, 253, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+.divexplicationpage4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imgcss4 {
+    object-fit: cover;
+    margin: auto;
+    box-shadow: 0px 0px 30px black, -5px -4px 45px black;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.divexplicationpage4 p {
+    font-family: "poppins", sans-serif;
+    height: fit-content;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    font-size: 23px;
+    text-shadow: -12px 13px 20px black, -3px 7px 7px black;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.87);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 0, 0, 0.51);
+    color: white;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.divexplication3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.divexplicationrepopage4 p {
+    font-family: "poppins", sans-serif;
+    height: fit-content;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    font-size: 23px;
+    text-shadow: -12px 13px 20px black, -3px 7px 7px black;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.87);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 0, 0, 0.51);
+    color: white;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.divexplicationrepopage4 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    gap: 10%;
+}
+
+.divexplicationrepopage4 img {
+    object-fit: cover;
+    box-shadow: 0px 0px 30px black, -5px -4px 45px black;
+    border-radius: 10px;
+    width: 40%;
+
 }
