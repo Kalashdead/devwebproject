@@ -1137,7 +1137,20 @@ body{
 }
 
     a{
-    font-size: 15px
+    font-size: 10px
+    
+}
+
+.artdiv a {
+
+    align-items: center;
+
+    
+}
+
+.imageprincipal{
+
+    width: 50%;
 }
 
 .divexplication{
@@ -1183,6 +1196,11 @@ img{
 .classjs{
     flex-direction: column;
     display: flex;
+}
+
+.divexplicationphp{
+    display: flex;
+    flex-direction: column;
 }
 }
     
